@@ -1,5 +1,8 @@
 # 
-Create a .env file in the root of your project. This file will store your environment variables.
+
+1. Initialize Firebase:
+Create a Firebase project in the Firebase Console. Once the project is created, add a new web app to get your Firebase configuration.
+2. Create a .env file in the root of your project. This file will store your environment variables.
   ```env
   # .env
   VITE_FIREBASE_API_KEY=your_api_key
